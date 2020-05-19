@@ -66,6 +66,14 @@ hr {
     height: auto;
 }
 
+#player-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#player {
+    display:none;
+}
 .video-container {
     position: relative;
     padding-bottom: 56.25%;

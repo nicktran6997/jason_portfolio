@@ -1,4 +1,5 @@
 $(document).ready(()=>{
+    $("#play").click(()=>$("#player").toggle(1000))
     $("#main, #intro").fadeIn(3000);
     $('#head-nav a').click(function(e) {
         var targetHref = $(this).attr('href');
